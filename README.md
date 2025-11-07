@@ -16,11 +16,11 @@ Todos os pull requests e forks são bem vindos
 - **Criador, programador principal e artista das cartas**:
 <a href="https://github.com/Abuuu31">
   <img src="https://github.com/Abuuu31.png" width="50" height="50" alt="Abuuu31"/>
-</a>
-Abuu31
+</a>Abuu31
+
 
 - **Organizador do repositório e programador**:
 <a href="https://github.com/ABMS-NS">
   <img src="https://github.com/ABMS-NS.png" width="50" height="50" alt="Alison"/>
-</a>
-Alison
+</a>Alison
+
