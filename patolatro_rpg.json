@@ -2,7 +2,7 @@
 	"id": "PatolatroRPG",
 	"name": "Patolatro RPG",
 	"display_name": "Patolatro RPG",
-	"author": ["Abuu"],
+	"author": ["Abuu, Molinete Mágico(Alison)"],
 	"description": "Personagens dos nossos RPGs transformados em Balatro",
 	"prefix": "rpgs",
 	"main_file": "coringasrpg.lua",
