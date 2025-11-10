@@ -1,4 +1,4 @@
-# PATOLATRO RPG
+# <img src="assets/2x/icon.png" width="32" height="32" alt="Icon"/> PATOLATRO RPG <img src="assets/2x/icon.png" width="32" height="32" alt="Icon"/>
 
 Um mod feito para incluir personagens e referências das mesas de RPG que os criadores jogam, feito puramente por diversão.
 
