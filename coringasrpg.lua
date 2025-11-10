@@ -1,11 +1,21 @@
 --- STEAMODDED HEADER
---- MOD_NAME: RPGs Balatro Version
---- MOD_ID: RPGsBalatroVersion
+--- MOD_NAME:  Patolatro RPG
+--- MOD_ID: PatolatroRPG
 --- MOD_AUTHOR: [Abuu]
 --- MOD_DESCRIPTION: Personagens dos nossos RPGs transformados em Balatro
 --- PREFIX: rpgs
 ----------------------------------------------
 ------------MOD CODE -------------------------
+
+if SMODS.Atlas then
+  SMODS.Atlas({
+    key = "modicon",
+    path = "icon.png",
+    px = 32,
+    py = 32
+  })
+end
+
 
 SMODS.Atlas{
     key = 'enhancements',
@@ -310,6 +320,128 @@ local function reset_vremade_idol_card()
         G.GAME.current_round.idol_card.id = idol_card.base.id
     end
 end
+-- Bruce
+SMODS.Joker{
+    key = 'bussy',
+
+    loc_txt = {
+        name = 'Bruce',
+        text = {
+            ''
+        }
+    },
+    atlas = 'Jokers',
+    rarity = 3,
+    cost = 6,
+    unlocked = true,
+    discovered = true,
+    blueprint_compat = false,
+    eternal_compat = false,
+    perishable_compat = false,
+    pos = {x = 3, y = 0},
+}
+-- Kimiko
+  SMODS.Joker{
+    key = 'kimiko',
+
+    loc_txt = {
+        name = 'Kimiko',
+        text = {
+            ''
+        }
+    },
+    atlas = 'Jokers',
+    rarity = 3,
+    cost = 6,
+    unlocked = true,
+    discovered = true,
+    blueprint_compat = false,
+    eternal_compat = false,
+    perishable_compat = false,
+    pos = {x = 4, y = 0},
+}
+-- Kai
+  SMODS.Joker{
+    key = 'kai',
+
+    loc_txt = {
+        name = 'Kai',
+        text = {
+            ''
+        }
+    },
+    atlas = 'Jokers',
+    rarity = 3,
+    cost = 6,
+    unlocked = true,
+    discovered = true,
+    blueprint_compat = false,
+    eternal_compat = false,
+    perishable_compat = false,
+    pos = {x = 5, y = 0},
+}
+-- V
+  SMODS.Joker{
+    key = 'V',
+
+    loc_txt = {
+        name = 'V',
+        text = {
+            ''
+        }
+    },
+    atlas = 'Jokers',
+    rarity = 3,
+    cost = 6,
+    unlocked = true,
+    discovered = true,
+    blueprint_compat = false,
+    eternal_compat = false,
+    perishable_compat = false,
+    pos = {x = 6, y = 0},
+}
+-- Dominique
+  SMODS.Joker{
+    key = 'Dominique',
+
+    loc_txt = {
+        name = 'Dominique',
+        text = {
+            ''
+        }
+    },
+    atlas = 'Jokers',
+    rarity = 3,
+    cost = 6,
+    unlocked = true,
+    discovered = true,
+    blueprint_compat = false,
+    eternal_compat = false,
+    perishable_compat = false,
+    pos = {x = 7, y = 0},
+}
+-- Nano
+    SMODS.Joker{
+        key = 'Nano',
+    
+        loc_txt = {
+            name = 'Nano',
+            text = {
+                ''
+            }
+        },
+        atlas = 'Jokers',
+        rarity = 3,
+        cost = 6,
+        unlocked = true,
+        discovered = true,
+        blueprint_compat = false,
+        eternal_compat = false,
+        perishable_compat = false,
+        pos = {x = 8, y = 0},
+    }
+
+
 
 ----------------------------------------------
 ------------MOD CODE END----------------------
